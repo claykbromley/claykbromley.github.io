@@ -851,6 +851,12 @@ body.offcanvas .colorlib-nav-toggle {
 	margin-bottom: 5px;
 }
 
+.work {
+	border: 2px solid #a77303;
+	background-color: #f9bf3f;
+	border-radius: 15px;
+}
+
 .timeline-centered {
 	position: relative;
 	margin-bottom: 30px;
@@ -2058,6 +2064,7 @@ ul {
 	padding-right: 20px;
 	/* margin: 30px auto 20px; */
 	background: #f9bf3f;
+	border: 2px solid #a77303;
 	color: #000;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
@@ -2154,6 +2161,15 @@ ul {
 	margin-bottom: 10px;
 	color: #000;
 	margin-bottom: 2px;
+	font-family: "Montserrat", sans-serif;
+}
+
+.project-subheading {
+	font-weight: 500;
+	margin-bottom: 10px;
+	color: #000;
+	margin-bottom: 2px;
+	font-family: "Montserrat", sans-serif;
 }
 
 .project-description {
