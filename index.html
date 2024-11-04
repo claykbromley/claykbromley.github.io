@@ -14,6 +14,7 @@
    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Raleway&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
    <link rel="stylesheet" href="css/animate.css">
    <link rel="stylesheet" href="css/bootstrap.css">
    <link rel="stylesheet" href="css/style.css">
@@ -30,10 +31,9 @@
          <aside id="colorlib-aside" role="complementary" class="border js-fullheight no-print">
             <div class="text-center">
                <div class="author-img">
-                  <img alt="profile-img" src="images/logo.png">
+                  <img alt="profile-img" src="images/LinkedIn_pfp.jpg">
                </div>
-               <h1 id="colorlib-logo"><a href="./index.html">Vinay
-                     Somawat</a>
+               <h1 id="colorlib-logo"><a href="./index.html">Clayton Bromley</a>
                </h1>
             </div>
             <nav id="colorlib-main-menu" role="navigation" class="navbar" style="padding-top: 2em">
@@ -49,7 +49,7 @@
                      <li><a href="#" data-nav-section="experience">Work
                            Experience</a></li>
                      <li><a href="#" data-nav-section="education">Education</a></li>
-                     <li><a href="#" data-nav-section="contact">Contact</a>
+                     <li><a href="#" data-nav-section="footer">Contact</a>
                      </li>
                   </ul>
                </div>
@@ -62,6 +62,8 @@
                      <div class="about-desc">
                         <h1>About</h1>
                         <div id="bio">
+                           <p>Hello! I'm Clayton Bromley, an experienced deep learning and computer vision engineer with a strong foundation in building AI-driven solutions that bridge technology and real-world applications. My background in entrepreneurship fuels my passion for developing scalable, impactful solutions, enabling me to approach challenges from both technical and business perspectives.</p>
+                           <p>I specialize in designing, training, and deploying machine learning models that solve complex visual understanding problems, from object detection to video segmentation, with a focus on performance and accuracy. By combining my technical expertise with a strategic mindset, I aim to drive innovation and create meaningful advancements in the fields of AI and computer vision.</p>
                         </div>
                      </div>
                   </div>
@@ -81,20 +83,6 @@
                </div>
             </section>
             <!--------------------[END] Skills------------------------------>
-            <section class="colorlib-profile" data-section="profile-card">
-               <div class="colorlib-narrow-content">
-                  <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-                     <div class="profile-cards">
-                        <div class="col">
-                           <div class="stack-card" user-id="8461233"></div>
-                        </div>
-                        <div class="col">
-                           <div class="github-card" username="claykbromley"></div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </section>
             <!--------------------[START] Projects-------------------------->
             <section class="colorlib-projects no-print" data-section="projects">
                <div class="colorlib-narrow-content">
@@ -193,23 +181,37 @@
                </div>
             </section>
             <!--------------------[END] Education--------------------------->
-            <!--------------------[START] Contact--------------------------->
-            <section class="colorlib-contact" data-section="contact">
-               <div class="colorlib-narrow-content">
-                  <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-                     <div class="about-desc">
-                        <h1>Contact</h1>
-                     </div>
-                     <p>Feel free to email me at clay.k.bromley@gmail.com for tech discussions, business opportunities, or just to say hello—I’d love to hear from you!
-                     </p>
-                  </div>
-               </div>
-            </section>
-            <!--------------------[END] Contact----------------------------->
             <!--------------------[START] Footer---------------------------->
             <section class="colorlib-footer no-print" data-section="footer">
                <div class="colorlib-narrow-content">
-                  <footer class="footer" id="footer">
+                  <footer>
+                     <div class="icon-container">
+                        <p>Feel free to reach out for tech discussions and business opportunities!</p>
+                     </div>
+                     <div class="icon-container">
+                        <a href="mailto:clay.k.bromley@gmail.com" class="icon-link">
+                            <i class="fas fa-envelope" style="font-size: 32px;"></i>
+                            <span class="tooltip">clay.k.bromley@gmail.com</span>
+                        </a>
+                        <a href="tel:+14847874450" class="icon-link">
+                            <i class="fas fa-phone" style="font-size: 32px;"></i>
+                            <span class="tooltip">(484) 787-4450</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/clayton-bromley/" class="icon-link">
+                           <i class="fa-brands fa-linkedin" style="font-size: 32px;"></i>
+                           <span class="tooltip">clayton-bromley</span>
+                        </a>
+                        <a href="https://github.com/claykbromley" class="icon-link">
+                           <i class="fa-brands fa-github" style="font-size: 32px;"></i>
+                           <span class="tooltip">claykbromley</span>
+                        </a>
+                     </div>
+                     <style>
+                        .icon-container {display: flex; justify-content: center; align-items: center;}
+                        .icon-link {position: relative;text-decoration: none;color: inherit;margin: 0 15px;}
+                        .icon-link .tooltip {visibility: hidden;opacity: 0;width: max-content;background-color: #333;color: #fff;text-align: center;padding: 5px;border-radius: 5px;position: absolute;bottom: -15px;left: 50%;transform: translateX(-50%);white-space: nowrap;font-size: 14px;transition: opacity 0.3s;}
+                        .icon-link:hover .tooltip {visibility: visible;opacity: 1;}
+                     </style>
                   </footer>
                </div>
             </section>

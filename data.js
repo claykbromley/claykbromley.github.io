@@ -1,7 +1,6 @@
 export const bio = [
-  "Hello! I'm Vinay Somawat, an experienced Frontend Software Engineer with a proven ability to upgrade applications, optimize performance, and deliver innovative solutions.",
-  "I am passionate about using my technical skills to drive impactful contributions in challenging projects.",
-  "Thanks for visiting!",
+  "Hello! I'm Clayton Bromley, an experienced deep learning and computer vision engineer with a strong foundation in building AI-driven solutions that bridge technology and real-world applications. My background in entrepreneurship fuels my passion for developing scalable, impactful solutions, enabling me to approach challenges from both technical and business perspectives.",
+  "I specialize in designing, training, and deploying machine learning models that solve complex visual understanding problems, from object detection to video segmentation, with a focus on performance and accuracy. By combining my technical expertise with a strategic mindset, I aim to drive innovation and create meaningful advancements in the fields of AI and computer vision.",
 ];
 
 export const skills = [
@@ -218,91 +217,24 @@ export const experience = [
 
 export const education = [
   {
-    title: "B.Tech. in Computer Science and Engineering",
-    duration: "2016 - 2020",
-    subtitle: "National Institute of Technology, Warangal",
-    details: [],
+    title: "Duke University",
+    duration: "Class of 2024",
+    subtitle: "BSE in Electrical and Computer Engineering",
+    details: ["GPA: 3.71", "Graduation with Distinction"],
     tags: [
-      "Data Structures & Algorithms",
-      "Operating Systems",
-      "Database Management System",
-      "Computer Networks",
-      "Compiler Designing",
-      "Cloud Computing",
+      "Machine Learning",
+      "Computer Vision",
+      "Processor Design",
+      "Digital Signal Processing",
     ],
     icon: "graduation-cap",
   },
   {
-    title: "Class 12th in Science and Mathematics",
-    duration: "",
-    subtitle: "Board of Secondary Education, Rajasthan",
-    details: [],
-    tags: ["Physics", "Chemistry", "Mathematics"],
+    title: "Garnet Valley High School",
+    duration: "Class of 2020",
+    subtitle: "",
+    details: ["GPA: 3.93"],
+    tags: [],
     icon: "book",
-  },
-];
-
-export const footer = [
-//   {
-//     label: "Dev Profiles",
-//     data: [
-//       {
-//         text: "Stackoverflow",
-//         link: "https://stackoverflow.com/users/8461233/vinay-somawat",
-//       },
-//       {
-//         text: "GitHub",
-//         link: "https://github.com/vinaysomawat",
-//       },
-//       {
-//         text: "LeetCode",
-//         link: "https://leetcode.com/somawatvinay/",
-//       },
-//     ],
-//   },
-//   {
-//     label: "Resources",
-//     data: [
-//       {
-//         text: "Enable Dark/Light Mode",
-//         func: "enableDarkMode()",
-//       },
-//       {
-//         text: "Print this page",
-//         func: "window.print()",
-//       },
-//       {
-//         text: "Clone this page",
-//         link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
-//       },
-//     ],
-//   },
-  {
-    label: "Links",
-    data: [
-    //   {
-    //     text: "Linkedin",
-    //     link: "https://www.linkedin.com/in/vinaysomawat/",
-    //   },
-    //   {
-    //     text: "Twitter",
-    //     link: "https://twitter.com/thesigmakid",
-    //   },
-      {
-        text: "Buy me a coffee",
-        link: "https://www.buymeacoffee.com/r194dME8y",
-      },
-      {
-        text: "Github/vinaysomawat.github.io",
-        link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
-      },
-    ],
-  },
-  {
-    label: "copyright-text",
-    data: [
-      "Made with &hearts; by Vinay Somawat.",
-      "&copy; No Copyrights. Feel free to use this template.",
-    ],
   },
 ];
