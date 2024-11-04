@@ -168,15 +168,14 @@ figure figcaption {
 	height: auto;
 }
 #colorlib-aside .author-img {
-	width: 150px;
-	height: 150px;
+	width: 200px;
+	height: 200px;
 	margin: 0 auto;
-	margin-bottom: 30px;
+	margin-bottom: 0;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-ms-border-radius: 50%;
 	border-radius: 50%;
-	/* border: 3px solid white; */
 }
 
 #colorlib-aside .author-img img{
@@ -609,6 +608,8 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .author-img img{
+	height: 200px;
+	width: 200px;
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -800,6 +801,20 @@ body.offcanvas .colorlib-nav-toggle {
 	padding: 1.5em;
 	margin-top: 5px;
 	border: 1px solid #e6e6e6 !important;
+}
+
+.read-more {
+	background-color: brown;
+	margin: 10px;
+	border: 2px solid black;
+	text-align: center;
+	border-radius: 8px;
+}
+
+.paper-img {
+	width: 95%;
+	margin: 10px;
+	border-radius: 10px;
 }
 
 .timeline-centered {
