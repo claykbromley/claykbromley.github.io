@@ -160,6 +160,13 @@ figure figcaption {
 	}
 }
 
+.resume {
+	color: black;
+	background-color: #f9bf3f;
+	border: 2px solid #a77303;
+	border-radius: 5px;
+}
+
 .resume-content img {
 	margin: 0 10px;
 	width: 100%;
