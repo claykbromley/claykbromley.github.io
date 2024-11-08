@@ -160,19 +160,39 @@ figure figcaption {
 	}
 }
 
-.resume {
+.about-buttons {
 	display: flex;
 	justify-content: center;
 	gap: 10px;
+	text-align: center;
 }
 
-.resume a{
+.resume {
 	color: black;
 	background-color: #f9bf3f;
 	border: 2px solid #a77303;
 	border-radius: 8px;
 	width: 30%;
 	font-weight: bold;
+}
+
+.resume:hover {
+	background-color: #daa125;
+	color: #000;
+}
+
+.google-scholar {
+	color: white;
+	background-color: brown;
+	border: 2px solid black;
+	border-radius: 8px;
+	width: 30%;
+	font-weight: bold;
+}
+
+.google-scholar:hover {
+	background-color: rgb(220, 0, 0);
+	color: #000;
 }
 
 .resume-content img {
@@ -861,6 +881,10 @@ body.offcanvas .colorlib-nav-toggle {
 	border: 2px solid black;
 	text-align: center;
 	border-radius: 8px;
+}
+
+.read-more:hover {
+	background-color: rgb(220, 0, 0);
 }
 
 .paper-img {
